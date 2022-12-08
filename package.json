@@ -1,0 +1,25 @@
+{
+  "name": "risky-lecense-detector",
+  "version": "1.0.0",
+  "description": "this tool helps the developer to remove errors and low confidence data from the license data and further identify high and medium level risky licenses.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Manav",
+  "license": "ISC",
+  "dependencies": {
+    "global": "^4.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "jscpd": "^3.4.5",
+    "mocha": "^9.2.1",
+    "nyc": "^15.1.0"
+  }
+}
